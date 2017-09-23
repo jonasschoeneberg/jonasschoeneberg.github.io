@@ -17,8 +17,8 @@ docpadConfig =
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'www.jonasschoeneberg.com',
+				'jonasschoeneberg.com'
 			]
 
 			# The default title of our website

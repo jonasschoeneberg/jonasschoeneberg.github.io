@@ -17,6 +17,7 @@
 	<meta property="og:title" content="<%= @getPreparedTitle() %>">
 	<meta property="og:description" content="<%= @getPreparedDescription() %>">
 	<meta property="og:image" content="/images/artwork.jpg">
+	<meta property="og:url" content="http://jonasschoeneberg.com">
 
 	<!-- DocPad Meta -->
 	<%- @getBlock('meta').toHTML() %>
