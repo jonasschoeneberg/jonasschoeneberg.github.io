@@ -1,0 +1,3 @@
+prose:
+  rooturl: 'src/partials'
+siteurl: 'http://jonasschoeneberg.github.io/'

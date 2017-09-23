@@ -2,11 +2,10 @@
 layout: 'default'
 ---
 
-<ul>
-	<% for post in @getCollection('posts').sortArray(date: -1): %>
-	<li>
-		<h3><a href="<%= post.url %>"><%- post.title or post.name %></a></h3>
-		<%- post.description %>
-	</li>
-	<% end %>
-</ul>
+<div class="info">
+	<%- @partial('text') %>
+</div>
+
+<%- @partial('work') %>
+
+<img class="emoji" src="/images/emoji.jpg">

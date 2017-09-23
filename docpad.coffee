@@ -22,22 +22,23 @@ docpadConfig =
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "Jonas Schoeneberg"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				Jonas Schoeneberg's work and contact.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				artist
 				"""
 
 			# The website's styles
 			styles: [
 				'/vendor/normalize.css'
 				'/vendor/h5bp.css'
+				'//fonts.googleapis.com/css?family=Sacramento|Open+Sans:300'
 				'/styles/style.css'
 			]
 
@@ -51,7 +52,6 @@ docpadConfig =
 
 				'/vendor/log.js'
 				'/vendor/modernizr.js'
-				'/scripts/script.js'
 			]
 
 
@@ -113,6 +113,14 @@ docpadConfig =
 			templateData:
 				site:
 					url: false
+
+	# =================================
+	# Plugins
+
+	plugins:
+		ghpages:
+			deployRemote: 'origin'
+			deployBranch: 'master'
 
 
 	# =================================
