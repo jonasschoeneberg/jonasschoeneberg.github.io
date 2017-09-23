@@ -1,8 +1,6 @@
+![](/images/title.svg)
 
-# Jonas Schoeneberg #
-
-
-[work](/portfolio.pdf)
+[work](/#)
 
 [contact](mailto:david.jonas.sch@gmail.com)
 

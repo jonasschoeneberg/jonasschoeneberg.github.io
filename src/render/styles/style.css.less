@@ -6,19 +6,6 @@ html, body {
 	background: #FFF;
 }
 
-h1 {
-	font-family: 'Sacramento', cursive;
-	font-size: 58px;
-	font-weight: 300;
-	font-style: italic;
-	margin: 0;
-	margin: 50px auto;
-	padding: 0 25px;
-	.small-viewport({
-		font-size: 48px;
-	});
-}
-
 p, a, a:hover, a:active, a:focus, a:visited {
 	font-family: 'Open Sans';
 	font-size: 18px;
@@ -32,27 +19,33 @@ p, a, a:hover, a:active, a:focus, a:visited {
 	margin-top: 10vh;
 	text-align: center;
 	z-index: 10;
+	img {
+		padding: 0 25px;
+		width: 75%;
+	}
 	.small-viewport({
 		position: relative;
 		width: 100vw;
 	});
 }
 
-img {
-	position: absolute;
-	max-height: 80vh;
-	width: auto;
-	margin: 10vh auto;
-	left: 0;
-	right: 0;
-	z-index: 9;
-	.small-viewport({
-		position: relative;
-		left: auto;
-		right: auto;
-		display: block;
+.work {
+	img {
+		position: absolute;
+		max-height: 80vh;
+		width: auto;
 		margin: 10vh auto;
-	});
+		left: 0;
+		right: 0;
+		z-index: 9;
+		.small-viewport({
+			position: relative;
+			left: auto;
+			right: auto;
+			display: block;
+			margin: 10vh auto;
+		});
+	}
 }
 
 .emoji {

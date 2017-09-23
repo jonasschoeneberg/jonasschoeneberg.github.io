@@ -38,7 +38,7 @@ docpadConfig =
 			styles: [
 				'/vendor/normalize.css'
 				'/vendor/h5bp.css'
-				'//fonts.googleapis.com/css?family=Sacramento|Open+Sans:300'
+				'//fonts.googleapis.com/css?family=Open+Sans:300'
 				'/styles/style.css'
 			]
 

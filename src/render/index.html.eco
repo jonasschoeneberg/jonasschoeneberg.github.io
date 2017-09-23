@@ -6,6 +6,8 @@ layout: 'default'
 	<%- @partial('text') %>
 </div>
 
-<%- @partial('work') %>
+<div class="work">
+	<%- @partial('work') %>
+</div>
 
 <img class="emoji" src="/images/emoji.jpg">
