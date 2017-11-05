@@ -1,6 +1,6 @@
 ![](/images/title.svg)
 
-[work](/#)
+[work](/portfolio.pdf)
 
 [contact](mailto:david.jonas.sch@gmail.com)
 
